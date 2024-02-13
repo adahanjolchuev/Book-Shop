@@ -1,0 +1,37 @@
+#header {
+  box-shadow: rgb(196, 186, 186) 2px 2px 7px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      h1 {
+        color: hsla(233, 71%, 71%, 1);
+        font-size: 30px;
+      }
+      a {
+        font-weight: 500;
+        color: black;
+        font-size: 20px;
+      }
+    }
+    .header-btns {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .header-btn {
+        border: none;
+        background: none;
+        font-size: 20px;
+      }
+      .header-btn-two {
+        border: none;
+        background: none;
+        font-size: 20px;
+      }
+    }
+  }
+}
